@@ -21,3 +21,16 @@ body
 {
 	background:yellow;
 }
+.text
+{
+	animation: anima 2s infinite;
+}
+keyframes anima
+{
+0% {text-shadow:2px 2px 4px BLUE;}
+25% {text-shadow:2px 2px 4px YELLOW;}
+50% {text-shadow:2px 2px 4px BLUE;}
+75% {text-shadow:2px 2px 4px YELLOW;}
+100% {text-shadow:2px 2px 4px BLUE;}
+}
+	

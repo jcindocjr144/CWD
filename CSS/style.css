@@ -25,7 +25,7 @@ body
 {
 	animation: anima 2s infinite;
 }
-keyframes anima
+@keyframes anima
 {
 0% {text-shadow:2px 2px 4px BLUE;}
 25% {text-shadow:2px 2px 4px YELLOW;}
